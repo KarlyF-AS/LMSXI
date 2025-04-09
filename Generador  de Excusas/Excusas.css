@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/ae912e36737383.5727bf71c3a93.gif'); /* Ruta a tu imagen de fondo */
+    background-repeat: repeat; /* Hace que la imagen se repita en ambas direcciones */
+    
+}
+
+.container {
+    font-family:'Times New Roman', Times, serif;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px; 
+    width: 100%; 
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: #ff009d;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}

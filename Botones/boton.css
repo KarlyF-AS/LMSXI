@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'BlackFlag';
+    src: url('BlackFlag.ttf');
+}
+
+.MiBoton{
+    all: unset;
+    font-family:'BlackFlag';
+    font-size: 40px;
+
+    background-image: url('paper.png');
+    background-size: cover;
+    background-position: center;
+
+    text-justify: center;
+    text-align: center;
+
+    height: 100px;
+    width: 300px;
+}
+/*.MiBoton:hover{
+    filter: ;
+}
+.MiBoton:active{
+
+}
+*/
