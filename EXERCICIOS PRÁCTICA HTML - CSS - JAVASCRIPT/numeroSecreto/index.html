@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Número Secreto</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Enlace a nuestro archivo CSS -->
+</head>
+<body>
+  <h1>¡Adivina el número secreto!</h1>
+
+  <!-- Campo de entrada para el número -->
+  <input type="number" id="intento" placeholder="Escribe un número entre 1 y 100">
+  
+  <!-- Botón para intentar adivinar -->
+  <button onclick="comprobar()">Play</button>
+
+  <!-- Botón para reiniciar el juego -->
+  <button onclick="reiniciar()">Reset</button>
+
+  <!-- Aquí aparecerá el mensaje (Mayor, Menor o Has ganado) -->
+  <div id="mensaje"></div>
+
+  <!-- Enlace al archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

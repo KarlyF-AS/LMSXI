@@ -1,0 +1,31 @@
+/* Esto hace que la fuente se vea más bonita y que el texto esté centrado */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Estilo para el campo de entrada */
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer; /* Cambia el cursor a mano al pasar por encima */
+  }
+  
+  /* Estilo para el mensaje que muestra el resultado */
+  #mensaje {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
