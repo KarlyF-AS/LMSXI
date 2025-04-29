@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel, Tesoiras, Lagarto, Spock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pedra, Papel, Tesoiras, Lagarto, Spock</h1>
+    
+    <div class="jugadores">
+        <div class="jugador" id="jugador1">
+            <h2>Xogador 1</h2>
+            <div class="opciones">
+                <img src="pedrapapeltesoiraslagartospock/pedra.png" alt="Pedra" data-opcion="pedra">
+                <img src="pedrapapeltesoiraslagartospock/papel.png" alt="Papel" data-opcion="papel">
+                <img src="pedrapapeltesoiraslagartospock/tesoiras.png" alt="Tesoiras" data-opcion="tesoiras">
+                <img src="pedrapapeltesoiraslagartospock/lagarto.png" alt="Lagarto" data-opcion="lagarto">
+                <img src="pedrapapeltesoiraslagartospock/spock.png" alt="Spock" data-opcion="spock">
+            </div>
+            <div class="seleccion" id="seleccion1"></div>
+        </div>
+        
+        <div class="jugador" id="jugador2">
+            <h2>Xogador 2</h2>
+            <div class="opciones">
+                <img src="pedrapapeltesoiraslagartospock/pedra.png" alt="Pedra" data-opcion="pedra">
+                <img src="pedrapapeltesoiraslagartospock/papel.png" alt="Papel" data-opcion="papel">
+                <img src="pedrapapeltesoiraslagartospock/tesoiras.png" alt="Tesoiras" data-opcion="tesoiras">
+                <img src="pedrapapeltesoiraslagartospock/lagarto.png" alt="Lagarto" data-opcion="lagarto">
+                <img src="pedrapapeltesoiraslagartospock/spock.png" alt="Spock" data-opcion="spock">
+            </div>
+            <div class="seleccion" id="seleccion2"></div>
+        </div>
+    </div>
+    
+    <button id="jugar">XOGAR</button>
+    
+    <div class="resultado" id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
